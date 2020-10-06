@@ -1,5 +1,4 @@
 import React from "react";
-import someForm from "../components/content";
 
 import "./nav.scss";
 
