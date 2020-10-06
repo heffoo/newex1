@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import NAV_ITEMS from "./consts";
+import Navbar from "./components/nav";
 
-function App() {
+import "./components/content.scss";
+import SomeForm from "./components/someForm";
+
+const App = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar items={NAV_ITEMS} setOpen={setOpen} />
+      {isOpen && <SomeForm isOpen={isOpen} setOpen={setOpen} />}
+      <div className="mainContent">
+        <div className="textContent">
+          <span className="spanNav">Thrivetalk</span>
+          <h2 className="mainText">HELPING YOU THRIVE IN ALL AREAS OF LIFE</h2>
+          <p className="textUnderMain">
+            Our highly talented therapists can help you with a range of issues including relationships, PTSD,
+            depression, social anxiety, or even just caring for yourself more.
+          </p>
+        </div>
+        <img className="img" alt="img" src="http://placekitten.com/320/520"></img>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
