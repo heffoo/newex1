@@ -3,7 +3,7 @@ import NAV_ITEMS from "./consts";
 import Navbar from "./components/nav";
 
 import "./components/content.scss";
-import SomeForm from "./components/someForm";
+import SomeForm from "./components/someForm/someForm";
 
 const App = () => {
   const [isOpen, setOpen] = useState(false);
@@ -20,8 +20,13 @@ const App = () => {
             depression, social anxiety, or even just caring for yourself more.
           </p>
         </div>
-        <img className="img" alt="img" src="http://placekitten.com/320/520"></img>
-      </div>
+
+        <div className="rightContent">
+          <img className="img" alt="img" src="http://placekitten.com/420/620"></img>
+        <figure className="rect"></figure>
+        </div>
+      </div>  
+      
     </div>
   );
 };

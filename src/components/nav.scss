@@ -57,6 +57,7 @@ body {
   box-shadow: 2px 2px 4px lightgray;
   background-color: #62d0df;
   cursor: pointer;
+  z-index: 10;
 
   &:active {
     -webkit-box-shadow: inset 0px 0px 18px -12px rgba(0,0,0,0.75);

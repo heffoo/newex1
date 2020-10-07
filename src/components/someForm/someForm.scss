@@ -1,0 +1,59 @@
+.someForm {
+    width: 360px;
+    height: 425px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    box-shadow: 0 0 14px 3px lightgray;
+    border-radius: 10px;
+    
+}
+.formContent {
+}
+.formReg {
+    width: 170px;
+    height: 25px;
+    margin: 20px 0 10px 45px;
+    border: 1px solid lightgray;
+    outline: 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    // box-shadow: 0 0 7px 1px lightgray;
+&:last-child {
+        height: 70px;
+        
+    }
+}
+.formText {
+    text-indent: 10px;
+    margin: 30px 0 10px 20px;
+    color: gray;
+    
+}
+.btnReg {
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #62d0df;
+    float: right;
+    margin: 0 35px 0 0;
+    border: 0;
+    box-shadow: 2px 2px 4px lightgray;
+    outline: 0;
+    cursor: pointer;
+    &:active {
+        -webkit-box-shadow: inset 0px 0px 18px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px 0px 18px -12px rgba(0,0,0,0.75);
+        box-shadow: inset 0px 0px 18px -12px rgba(0,0,0,0.75);
+      }
+}
+.btnclose {
+    background-color: transparent;
+border: 0;
+outline: 0;
+position: absolute;
+right:10px;
+top: 10px;
+cursor: pointer;
+}
