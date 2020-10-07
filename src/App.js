@@ -19,6 +19,8 @@ const App = () => {
             Our highly talented therapists can help you with a range of issues including relationships, PTSD,
             depression, social anxiety, or even just caring for yourself more.
           </p>
+          <button className="buttonUnderText1 ">WHO AM I</button>
+          <button className="buttonUnderText2">WHO DO I DO </button>
         </div>
 
         <div className="rightContent">

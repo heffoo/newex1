@@ -34,11 +34,7 @@ body {
 }
 
 .img {
-
   border-radius: 30px;
-
-  
-  
 }
 .rect {
   top: -100px;
@@ -49,4 +45,36 @@ body {
   background: #edfdff;
   border-radius: 312.159px;
   transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+}
+
+.buttonUnderText1 {
+  border: 0;
+  outline: 0;
+  background-color: #f9b640;
+  width: 150px;
+  height: 50px;
+  color: white;
+
+  &:active{
+    box-shadow: 2px 2px 4px lightgrey;
+  }
+  font: {
+    size: 16px;
+    weight: bold;
+  }
+}
+.buttonUnderText2 {
+  border: 0;
+  outline: 0;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  color: #f9b640;
+  &:active{
+    box-shadow: 2px 2px 4px lightgrey;
+}
+  font: {
+    size: 16px;
+    weight: bold;
+  }
 }
