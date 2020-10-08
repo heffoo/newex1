@@ -4,7 +4,7 @@ import "./nav.scss";
 
 const Navbar = ({ items, setOpen }) => {
   return (
-    <div className="navbar">
+    <header>
       <span className="spanNav">Thrivetalk</span>
 
       <div className="navmenu">
@@ -18,7 +18,7 @@ const Navbar = ({ items, setOpen }) => {
       </div>
 
       <button className="btnSubscribe" onClick={setOpen}>a button</button>
-    </div>
+    </header>
   );
 };
 export default Navbar;
