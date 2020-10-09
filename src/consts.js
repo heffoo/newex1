@@ -1,10 +1,12 @@
 const NAV_ITEMS = [
     {
       to: '/first',
+      href: '#home',
       name: "Home",
     },
     {
       to: '/second',
+      href: '#about',
       name: "About",
     },
     {

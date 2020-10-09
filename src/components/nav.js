@@ -10,13 +10,13 @@ const Navbar = ({ items, setOpen }) => {
       <div className="navmenu">
         {items.map((item) => (
           <li key={item.to} className="navitem">
-            <a href="/#" className="navLink">
+            <a href={item.href} className="navLink">
               {item.name}
             </a>
           </li>
         ))}
       </div>
-
+      
       <button className="btnSubscribe" onClick={setOpen}>a button</button>
     </header>
   );

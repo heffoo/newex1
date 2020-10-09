@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../components/content.scss";
+import "../home/home.scss";
 
        
 const Home = () => {

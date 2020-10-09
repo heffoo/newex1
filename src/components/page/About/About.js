@@ -6,31 +6,27 @@ const About = () => {
   return (
     <div>
       <section className="mainContent2">
-          <div className="textContent2">
-        <h2> Whi Thrive?</h2>
-        <p className="textUnderMain2">
-          Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right
-          therapist? Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office
-          from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk. Start therapy
-          now with a licensed therapist!
-        </p></div> </section>
-        {/* <section className="textContent">
-  <span className="spanNav">Thrivetalk</span>
-  <h2 className="mainText">HELPING YOU THRIVE IN ALL AREAS OF LIFE</h2>
-  <p className="textUnderMain">
-    Our highly talented therapists can help you with a range of issues including relationships, PTSD,
-    depression, social anxiety, or even just caring for yourself more.
-  </p>
-  <button className="buttonUnderText1 ">WHO AM I</button>
-  <button className="buttonUnderText2">WHO DO I DO </button>
-</section>
+        <div className="textContent2">
+          <h2 className="text-main"> <a id="about">Why Thrive?</a></h2>
+          <p className="textUnderMain2">
+           <b> Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right
+            therapist?</b> Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office
+            from anywhere you can access your laptop or mobile phone. Become your best self with ThriveTalk. Start
+            therapy now with a licensed therapist!
+          </p>
+        </div>
+        <div className="img2"> </div>
+      </section>
 
-<div className="rightContent">
-  <img className="img" alt="img" src="http://placekitten.com/420/620"></img>
-  
-
-</div>   */}
-     
+      <section className="second-main-content-2">
+          <button className="btn-about-us">ABOUT US</button>
+        <p className="text-main-2">
+          We want to help you thrive! Whether you are just looking for someone to talk to, or are struggling with a
+          mental wellness issue we’re here to help. Our highly talented therapists can help you with a range of issues
+          including relationships, sex, PTSD, depression, social anxiety, or even just caring for yourself more.
+        </p>
+      </section>
+      
     </div>
   );
 };

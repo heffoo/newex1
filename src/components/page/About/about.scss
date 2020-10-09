@@ -1,33 +1,67 @@
+@import "./src/main.scss";
+
 .mainContent2 {
-   
-    display: flex;
-    justify-content: space-around;
+  // padding: 170px 0 125px 0;
+  display: flex;
+  justify-content: space-around;
 }
-.secondMain{
-    padding: 170px 0 125px 0;
-     background-color: #62D0DF;;
+.secondMain {
+  background-color: #62d0df;
 }
+
 .textUnderMain2 {
-    font: {
-        size: 24px;
-      }
-      width: 450px;
+  font: {
+    size: 24px;
+  }
+  width: 550px;
+  padding-top: 50px;
+  color: white;
 }
 
+.second-main-content-2 {
+  background-color: white;
+  padding-top: 105px;
+  justify-content: space-evenly;
+  display: flex;
+  padding-bottom: 65px;
 
-// .main-content-second-2 {
-//     height: 100vh;
-//     width: 100vw;
-// }
-// .textUnderText2 {
-//     color: white;
-//     font: {
-//         size: 36px;
-//     }
-// }
-// .img-second-page {
-//     // background: url(http://placekitten.com/420/620);
-//     width: 100vh;
-//     height: 100vw;
-    
-// }
+  
+}
+.textUnderText2 {
+  color: white;
+  font: {
+    size: 36px;
+  }
+}
+.text-main-2 {
+  font: {
+    size: 24px;
+  }
+  color: #22356F;
+  width: 650px;
+}
+.text-main {
+  font: {
+    size: 36px;
+  }
+  padding-top: 60px;
+  color: white;
+}
+
+.img2 {
+  height: 525px;
+  width: 600px;
+  background: no-repeat url(http://placekitten.com/525/600?image=12);
+  
+}
+
+.btn-about-us {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #22356F;
+    font: {
+        size: 16px;
+    }
+    cursor: pointer;
+}
