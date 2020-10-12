@@ -2,18 +2,43 @@
   height: 800px;
   width: 480px;
   background: no-repeat url(http://placekitten.com/480/800?image=12);
+  position: absolute;
+  left: 0;
 }
 .mainContent5 {
   display: flex;
-  //   justify-content: space-between;
+  justify-content: center;    height: 800px;
 }
 .textContent5 {
   width: 670px;
-  display: flex;  
-  font-size: 36px;
+  display: flex;
+  font: {
+    size: 36px;
+    weight: bold;
+  }
   flex-direction: column;
-    justify-content: space-around;
+  justify-content: center;
+  color: #22356F;
+ & p {
+   padding-bottom: 150px;
+ } 
+ & h4 {
+   font: {
+     size: 16px;
+     ;
+   }
+ }
+ 
 }
-// .blogp {
-//     padding-bottom: 140px;
-// }
+.button-blog {
+  width: 150px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #FAB63E;
+  cursor: pointer;
+  
+}
+.text-mark {
+  color: #62d0df ;
+}
