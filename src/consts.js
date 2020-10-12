@@ -11,11 +11,13 @@ const NAV_ITEMS = [
     },
     {
       to: '/third',
+      href: '#services',
       name: "Services",
     },
     {
         to: '/fourth',
-        name: 'Blog'
+        href: '#blog',
+        name: 'Blog',
     }
   ]
         

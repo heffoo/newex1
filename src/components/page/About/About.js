@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <section className="mainContent2">
         <div className="textContent2">
-          <h2 className="text-main"> <a id="about">Why Thrive?</a></h2>
+          <h2 className="text-main" id="about"> Why Thrive?</h2>
           <p className="textUnderMain2">
            <b> Want to improve your well-being from the comfort of your own couch? Are you having trouble finding the right
             therapist?</b> Here at ThriveTalk, our licensed therapists provide the same quality care you would get in office

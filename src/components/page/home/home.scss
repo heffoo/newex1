@@ -1,6 +1,5 @@
-@import "src/components/nav.scss";
 
-@import "./src/main.scss";
+
 body {
   overflow-x: hidden;
     
@@ -97,4 +96,5 @@ body {
   bottom: 15px;
   right: 0;
   position: fixed;
+  color: transparent;
 }

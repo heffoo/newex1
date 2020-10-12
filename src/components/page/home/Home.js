@@ -7,7 +7,7 @@ const Home = () => {
   return (
 <section className="mainContent">
 <section className="textContent">
-  <span className="spanNav">Thrivetalk</span>
+  <span className="spanNav" >Thrivetalk</span>
   <h2 className="mainText">HELPING YOU THRIVE IN ALL AREAS OF LIFE</h2>
   <p className="textUnderMain">
     Our highly talented therapists can help you with a range of issues including relationships, PTSD,

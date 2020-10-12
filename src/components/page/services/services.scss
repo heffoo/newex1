@@ -7,11 +7,84 @@
   }
 }
 .blocks {
-    display: flex;
-    padding-top: 50px;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .blockitem {
-   
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: {
+    size: 32px;
+    weight: bold;
+  }
   height: 360px;
   width: 100%;
+}
+.maincontent4 {
+  padding-top: 30px;
+}
+.blocks1 {
+  display: flex;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+.blockitem1 {
+  @extend .blockitem;
+  width: 33.33%;
+
+  &:nth-child(3) {
+    background: no-repeat url(../../../img/rasp.jpg);
+    background-size: cover;
+  }
+  &:hover {
+    transform: scale(1.05);
+    transition: all ease-out 0.3s;
+  }
+}
+
+.hr {
+  width: 340px;
+  position: absolute;
+  border: {
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  border-top: 1px solid white;
+  padding-top: 270px;
+  opacity: 0.7;
+}
+
+.blocks2 {
+  @extend .blocks1;
+  padding-top: 0;
+}
+.blockitem2 {
+  @extend .blockitem;
+  height: 240px;
+  width: 480px;
+  padding: 75px;
+  color: #22356f;
+  font: {
+    weight: unset;
+    size: 16px;
+  }
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+.blockContent {
+  width: 400px;
+}
+.headerText {
+  margin: 0;
+  font: {
+    weight: unset;
+    size: 28px;
+  }
 }
