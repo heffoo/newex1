@@ -6,8 +6,7 @@ const Blog = () => {
   return (
     <>
       <section className="mainContent5">
-        <div className="img3" ></div> 
-            {/* blog is up */}
+        <div className="img3" id="blog"></div> 
         <div className="textContent5">
           <h4> YOU SHOULD ALSO KNOWN </h4>
           <p>
@@ -20,6 +19,7 @@ const Blog = () => {
 
       <section className="mainContent6">
         <div className="img4"></div>
+        <div className="div-for-content">
         <div className="textContent6">
           <button className="btn-for-blog">CONTACT US</button>
     
@@ -28,7 +28,7 @@ const Blog = () => {
        
 
           <button className="second-button-blog">GET HELP NOW</button>
-        </div>
+        </div></div>
       </section></>
       
     

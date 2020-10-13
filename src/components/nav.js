@@ -17,7 +17,7 @@ const Navbar = ({ items, setOpen }) => {
         ))}
       </div>
       
-      <button className="btnSubscribe" onClick={setOpen}>a button</button>
+      <button className="btnSubscribe" onClick={setOpen}>CONTACT US</button>
     </header>
   );
 };

@@ -14,6 +14,7 @@ const SomeForm = ({ setOpen, isOpen }) => {
   }, [setOpen, isOpen, ssform]);
 
   return (
+    <div className="formContainer">
     <div ref={ssform} className="someForm">
         <p className="formText"> Заполните форму обратной связи и мы вам перезвоним! (наверное) </p>
         <button className='btnclose' onClick={() => setOpen(false)} >✕</button>
@@ -23,7 +24,7 @@ const SomeForm = ({ setOpen, isOpen }) => {
         <input type="text" placeholder='тема' className="formReg"></input>
         <input type="text" size='44' placeholder='ваше сообщение' className="formReg"  />
     <input type="submit" className="btnReg" value='submit' onClick={() => setOpen(false)}></input>   </form>
-     
+    </div>
     </div>
   );
 };

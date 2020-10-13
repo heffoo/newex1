@@ -6,7 +6,6 @@
 }
 .mainContent5 {
   display: flex;
-  justify-content: center;
   height: 800px;
 }
 .textContent5 {
@@ -30,6 +29,10 @@
     padding-bottom: 200px;
   }
 }
+.div-for-content {
+  display: flex;
+  justify-content: space-around;
+}
 .button-blog {
   width: 150px;
   background-color: transparent;
@@ -37,13 +40,18 @@
   outline: 0;
   color: #fab63e;
   cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
 }
 .text-mark {
   color: #62d0df;
 }
 
 .mainContent6 {
-  @extend .mainContent5;
+  display: flex;
+  justify-content: center;
+  height: 800px;
   background-color: #22356f;
 }
 .img4 {

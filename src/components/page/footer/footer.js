@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="img5"></div>
         <div className="for-content">
           <div className="textContent7">
-            <div className="column" id="blog">
+            <div className="column" >
               <h5>SOME INFO</h5>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, provident?</p>
             </div>

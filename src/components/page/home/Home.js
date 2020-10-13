@@ -1,11 +1,12 @@
 import React from "react";
 
+
 import "../home/home.scss";
 
        
-const Home = () => {
+const Home = ( ) => {
   return (
-<section className="mainContent">
+<section className={'mainContent'}>
 <section className="textContent">
   <span className="spanNav" >Thrivetalk</span>
   <h2 className="mainText">HELPING YOU THRIVE IN ALL AREAS OF LIFE</h2>
@@ -18,6 +19,7 @@ const Home = () => {
 </section>
 
 <div className="rightContent">
+  {/* <div className="rect"></div> */}
   <img className="img" alt="img" src="http://placekitten.com/420/620"></img>
   
 
