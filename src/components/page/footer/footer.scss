@@ -1,0 +1,41 @@
+.img5 {
+  background: url(http://placekitten.com/570/380?image=1);
+  height: 380px;
+  width: 570px;
+  // left: 0;
+  // position: absolute;
+}
+.mainContent7 {
+  display: flex;
+}
+.for-content {
+  width: 1300px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textContent7 {
+  display: flex;
+}
+.column {
+  width: 200px;
+  height: 150px;
+  padding: 60px;
+  & h5 {
+    color: #22356f;
+    padding-bottom: 30px;
+  }
+  & p {
+    color: rgba(34, 53, 111, 0.5);
+  }
+}
+.copyright {
+  height: 80px;
+  background-color: #62d0df;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

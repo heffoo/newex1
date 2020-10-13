@@ -68,7 +68,7 @@
   @extend .blockitem;
   height: 240px;
   width: 480px;
-  padding: 75px;
+  padding: 30px 75px 20px 75px;
   color: #22356f;
   font: {
     weight: unset;
@@ -78,9 +78,7 @@
   flex-direction: column;
   text-align: justify;
 
-  &::nth-child(4-6) {
-    padding-bottom: 25px;
-  }
+  
 }
 .blockContent {
   width: 400px;

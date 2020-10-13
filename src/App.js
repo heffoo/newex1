@@ -9,6 +9,7 @@ import UP_BLOCKS from './components/page/services/blocks'
 import DOWN_BLOCKS from './components/page/services/moreblocks'
 import TRANS_BLOCKS from './components/page/services/transblocks'
 import Blog from './components/page/Blog/blog' 
+import Footer from './components/page/footer/footer'
 
 import "../src/components/page/home/home.scss";
 import "../src/main.scss"
@@ -29,12 +30,12 @@ const App = () => {
         </div>
         <div className="thirdMain">
           <Services items={UP_BLOCKS} downitems={DOWN_BLOCKS} transitems={TRANS_BLOCKS}/>
-        </div>
-<hr></hr>
+       <hr className="h4-for-blog"></hr> </div>
+
         <div className="fourthMain">
           <Blog />
         </div>
-        
+        <Footer />
        
       </main>
 
