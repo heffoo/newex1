@@ -1,22 +1,18 @@
-
-
 body {
   // overflow-x: hidden;
-    
 }
 
 .firstMain {
   background-color: #f4f9e2;
- padding: 170px 0 125px 0;
+  padding: 170px 0 125px 0;
 }
 .body-overflow {
-  overflow: -moz-hidden-unscrollable;
- 
+  overflow: hidden;
 }
 .mainContent {
   display: flex;
   width: 100%;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
   position: relative;
   // z-index: 1;
@@ -69,7 +65,7 @@ body {
   height: 50px;
   color: white;
 
-  &:active{
+  &:active {
     box-shadow: 2px 2px 4px lightgrey;
   }
   font: {
@@ -84,9 +80,9 @@ body {
   height: 50px;
   background-color: transparent;
   color: #f9b640;
-  &:active{
+  &:active {
     box-shadow: 2px 2px 4px lightgrey;
-}
+  }
   font: {
     size: 16px;
     weight: bold;
@@ -105,12 +101,11 @@ body {
 
 .h4-for-blog {
   margin: 0;
-  border: { 
+  border: {
     top: 1px solid #000;
     left: 0;
     right: 0;
     bottom: 0;
     color: lightgray;
-  } 
-  
+  }
 }

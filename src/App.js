@@ -21,6 +21,11 @@ const App = () => {
     document.body.classList.toggle("body-overflow");
     setOpen(!isOpen);
   };
+  const secondPopup = () => {
+    document.body.classList.toggle("body-overflow");
+    setOpen(!isOpen);
+    
+  }
 
   return (
     <div className="App" id="toppage">
@@ -40,7 +45,7 @@ const App = () => {
           <Services items={UP_BLOCKS} downitems={DOWN_BLOCKS} transitems={TRANS_BLOCKS} />
           <hr className="h4-for-blog"></hr>{" "}
         </div>
-
+        
         <div className="fourthMain">
           <Blog />
         </div>
